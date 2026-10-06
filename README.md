@@ -48,24 +48,25 @@
 ```python
 class Developer(Human):
     def __init__(self):
-        self.name      = "Anıl Gül"
-        self.born      = 2002
-        self.base      = "Malatya, TR"
-        self.education = "Kapadokya University — Management Information Systems"
-        self.roles     = ["Systems Engineer", "Network Specialist", "Backend Developer"]
-        self.languages = ["Java", "JavaFX", ".NET"]
-        self.systems   = ["Windows", "Linux", "NTLite", "Cisco"]
-        self.mindset   = "Hardware, network and software are one living ecosystem."
+        self.name       = "Anıl Gül"
+        self.born       = 2002
+        self.base       = "Malatya, TR"
+        self.education  = "Kapadokya University — Management Information Systems"
+        self.roles      = ["Systems Engineer", "Network Specialist", "Backend Developer"]
+        self.languages  = ["Java", "Python", "C#", "TypeScript", "Swift"]
+        self.frameworks = ["JavaFX", ".NET / WPF", "SwiftUI", "Svelte", "Electron"]
+        self.systems    = ["Windows", "macOS", "Linux", "NTLite", "Cisco"]
+        self.mindset    = "Hardware, network and software are one living ecosystem."
 
     def current_mission(self):
-        return "Oblivion — an advanced, registry-aware system uninstaller"
+        return "Emberwise — a cozy focus RPG for Windows & macOS"
 
     def execute(self) -> System:
         # bare-metal → HAL → kernel → backend → microservices
         return System(ready=True, full_control=True)
 ```
 
-I don't just write code — I architect **end-to-end infrastructure**. From **Hardware Abstraction Layer (HAL)** integration and custom OS kernel compilation at the bare-metal level, up to modern **Java & .NET** services at the application layer, I treat IT as a single living system where every layer talks to the next.
+I don't just write code — I architect **end-to-end infrastructure**. From **Hardware Abstraction Layer (HAL)** integration and custom OS kernel compilation at the bare-metal level, up to modern **Java & .NET** services at the application layer, I treat IT as a single living system where every layer talks to the next. Lately that means shipping **cross-platform desktop apps** end to end — from the first line of code to the installers and CI for **Windows and macOS**.
 
 ---
 
@@ -75,11 +76,20 @@ I don't just write code — I architect **end-to-end infrastructure**. From **Ha
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![JavaFX](https://img.shields.io/badge/JavaFX-5382A1?style=for-the-badge&logo=java&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=dotnet&logoColor=white)
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![Swift](https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white)
+![SwiftUI](https://img.shields.io/badge/SwiftUI-0D96F6?style=for-the-badge&logo=swift&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Svelte](https://img.shields.io/badge/Svelte-FF3E00?style=for-the-badge&logo=svelte&logoColor=white)
+![Electron](https://img.shields.io/badge/Electron-47848F?style=for-the-badge&logo=electron&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 
 **🖥️ Systems & OS**
 
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+![macOS](https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white)
 ![NTLite](https://img.shields.io/badge/NTLite-1F1F1F?style=for-the-badge&logo=windows11&logoColor=58A6FF)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
@@ -102,30 +112,38 @@ I don't just write code — I architect **end-to-end infrastructure**. From **Ha
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
 
 ---
 
 ### 🚀 Featured Work
 
-#### 🧹 [Oblivion](https://github.com/anilg12/Oblivion-Uninstaller)
-Advanced system uninstaller with a **"Hunter Mode"** that hunts down registry keys and filesystem residue left behind by apps — then reclaims the space.
+#### 🔥 [Emberwise](https://github.com/anilg12/Emberwise)
+A cozy focus RPG for **Windows & macOS** that turns tasks into quests and every focused minute into XP — 19 hand-drawn characters, a year-long login reward path, an ambience mixer built from real field recordings and close to 400 original lines. Fully offline: no account, no ads, no tracking. A ground-up rewrite of my JavaFX [Odak Menajeri RPG](https://github.com/anilg12/Odak-Menajeri-RPG).
 
-`C#` · `.NET` · `WPF` · `Win32 API` · `Registry`
+`Electron` · `Svelte 5` · `TypeScript` · `Vite` · `Web Audio API`
+
+#### 🧹 [Oblivion](https://github.com/anilg12/Oblivion-Uninstaller)
+Removes programs without a trace on **Windows & macOS**, native on each platform. Every registry and file-system leftover is listed with the reason it was found and a confidence level; a live system monitor, **"Hunter Mode"**, startup manager and file shredder sit under one roof. Nothing is ever pre-selected, and there's always a way back.
+
+`C#` · `.NET 8` · `WPF` · `Swift` · `SwiftUI` · `Win32 API`
+
+#### 📡 [SPEKTRA](https://github.com/anilg12/Spektra)
+An electronic-warfare RF spectrum simulator: a frequency-hopping (FHSS) radio against two jammers over a live spectrum analyzer and waterfall, driven by a pure-Java physics core that numerically validates SJNR and PDR. Ships as a self-contained Windows MSI.
+
+`Java 21` · `JavaFX 21` · `jlink` · `jpackage`
 
 #### 📦 [StockFlow](https://github.com/anilg12/StockFlow)
-A full-stack inventory engine — built desktop-first, then opened to the web. Developed as my **senior-year capstone (graduation) project at Kapadokya University** and adopted into the university's own infrastructure. Offline-capable, locally persistent, and clean enough for the next developer to read.
+Inventory & customer-relationship management for small businesses — my **senior-year capstone (graduation) project at Kapadokya University**, adopted into the university's own infrastructure. Built on the Python standard library alone: no `pip install`, it opens with a double-click.
 
-`Python` · `Flet` · `SQLite` · `Service Layer`
+`Python` · `tkinter` · `SQLite` · `Zero dependencies`
 
-#### 🎮 [Odak-Menajeri-RPG](https://github.com/anilg12/Odak-Menajeri-RPG)
-A gamified focus / task manager built as a desktop RPG experience — productivity meets game design.
+#### ⚙️ RoseOS — [Win11 LTSC Lite](https://github.com/anilg12/win11-ltsc-lite) · [Win10 NTLite](https://github.com/anilg12/Win10NTLiteLog)
+Windows images slimmed down with NTLite. The Windows 11 LTSC 2024 build drops 94 components and idles at **1.8 GB RAM** while keeping security updates until 2034 — shared as a verifiable `preset.xml`, never as an ISO.
 
-`Java` · `JavaFX`
-
-#### ⚙️ [Win10NTLite](https://github.com/anilg12/Win10NTLiteLog)
-Documented NTLite configuration & log set for stripping and optimizing a Windows 10 image down to the essentials.
-
-`NTLite` · `Windows` · `System Tuning`
+`NTLite` · `Windows 11 LTSC` · `Windows 10` · `System Tuning`
 
 ---
 
@@ -134,9 +152,10 @@ Documented NTLite configuration & log set for stripping and optimizing a Windows
 ![Cisco](https://img.shields.io/badge/Cisco_Networking_Academy-1BA0D7?style=flat-square&logo=cisco&logoColor=white)
 ![JS Institute](https://img.shields.io/badge/JavaScript_Institute-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Red Team Leaders](https://img.shields.io/badge/Red_Team_Leaders-CF1020?style=flat-square&logo=hackthebox&logoColor=white)
+![Turkcell Akademi](https://img.shields.io/badge/7×_Turkcell_Akademi-FFC900?style=flat-square)
 ![Credly](https://img.shields.io/badge/4×_Credly_Verified-FF6B00?style=flat-square&logo=credly&logoColor=white)
 
-> 7 certifications · 4 Credly-verified — all viewable & downloadable on my [portfolio](https://anilg12.github.io/#cert-section).
+> 14 certifications · 12 verifiable at the source — all viewable & downloadable on my [portfolio](https://anilg12.github.io/#cert-section).
 
 ---
 
