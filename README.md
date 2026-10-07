@@ -21,7 +21,7 @@
   <a href="https://anilg12.github.io/" target="_blank">
     <img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=vercel&logoColor=58A6FF" alt="Portfolio" />
   </a>
-  <a href="https://www.linkedin.com/in/an%C4%B1l-g%C3%BCl-753417249" target="_blank">
+  <a href="https://www.linkedin.com/in/anilg12" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="mailto:anillgul2002@gmail.com">
